@@ -11,7 +11,6 @@ body {
     max-width: 860px;
     align-items: center;
     justify-content: space-between;
- 
 }
 
 .container li{
@@ -80,7 +79,7 @@ body {
 
 .card img{
     height: 150px;
-    width: 150px;
+    width: 230px;
     padding: 10px;
 }
 
@@ -90,25 +89,94 @@ body {
     padding-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
+    background-color: #4A5568;
 }
 
-.testing-description{
-    
+.testing-desciption p{
+    padding-top: 20px;
+    padding-right: 20px;
+    width: 73%;
 }
 
 
-.testing .cta{
-    display: inline;
+.testing a{
+    text-transform:uppercase;
+    text-decoration: none;
     color: white;
     font-family: -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", sans-serif;
     background-color: #48BB78;
     border-radius: 5px;
-    padding: 1%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 18px;
-    float: right;
-    margin: 2%;
+    margin-right: 20px;
+    white-space: nowrap;
+    
 }
 
+.stories{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
 
+.stories .container{
+    display: flex;
+   flex-direction: column;
+   width: 650px;
+}
+
+.stories img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.stories h2{
+    position: relative;
+    bottom: 50px;
+    right: 200px;
+}
+
+.stories article{
+    display: grid;
+    grid-template-columns: 200px 400px;
+}
+
+.newsletter{
+    padding: 8%;
+    background-color: #48BB78;
+    color: white;
+}
+.newsletter .container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.newsletter .btn{
+    background-color: #5A67D8;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.newsletter .form-group{
+    display: inline;
+}
+
+.form-group input[type="email"] {
+    padding: 10px; 
+    font-size: 18px; 
+}
+
+footer{
+    background-color: #4A5568;
+    color: white;
+    padding: 20px;
+}
+
+/* ASK SIR ABOUT REMOVING THE COMP2245 NAME FROM THE PROJECT IN THE HEADER AND FOOTER*/
